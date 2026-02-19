@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ═══════════════════════════════════════════════════════════
+       SEO META TAGS
+  ════════════════════════════════════════════════════════════ -->
+  <title>¿Qué tipo de personalidad tienes? — Quiz Gratis | Zappiz</title>
+  <meta name="description"
+        content="Descubre si eres un Líder Nato, Alma Creativa, Pensador Analítico o Conector Social. Quiz de personalidad gratis en 12 preguntas. ¡Comparte tu resultado!">
+  <meta name="keywords"
+        content="quiz personalidad, test personalidad gratis, tipo de personalidad, quiz interactivo, zappiz, quiz online">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://zappiz.io/quizzes/personalidad/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://zappiz.io/quizzes/personalidad/">
+  <meta property="og:title"       content="¿Qué tipo de personalidad tienes? | Zappiz">
+  <meta property="og:description" content="Descubre tu tipo de personalidad en 12 preguntas. ¿Eres Líder, Creativo, Analítico o Conector? ¡Descúbrelo gratis!">
+  <meta property="og:image"       content="https://zappiz.io/assets/images/og-personalidad.jpg">
+  <meta property="og:locale"      content="es_ES">
+  <meta property="og:site_name"   content="Zappiz">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:site"        content="@zappiz">
+  <meta name="twitter:title"       content="¿Qué tipo de personalidad tienes? | Zappiz">
+  <meta name="twitter:description" content="Quiz de personalidad gratuito: descubre tu tipo en 12 preguntas situacionales.">
+  <meta name="twitter:image"       content="https://zappiz.io/assets/images/og-personalidad.jpg">
+
+  <!-- ═══════════════════════════════════════════════════════════
+       FAVICON (usa el icono SVG compacto del logo)
+  ════════════════════════════════════════════════════════════ -->
+  <link rel="icon"             href="../../assets/logo-icon.svg" type="image/svg+xml">
+  <link rel="alternate icon"   href="../../assets/favicon.ico"   type="image/x-icon">
+  <link rel="apple-touch-icon" href="../../assets/logo-icon.svg">
+
+  <!-- ═══════════════════════════════════════════════════════════
+       GOOGLE ADSENSE — Sustituir "ca-pub-XXXXXXXXXX" con tu ID
+       Descomenta cuando tengas aprobación de AdSense.
+  ════════════════════════════════════════════════════════════ -->
+  <!--
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX"
+    crossorigin="anonymous">
+  </script>
+  -->
+
+  <!-- Color del tema del quiz (se sobrescribe aquí para personalidad) -->
+  <style>:root { --quiz-color: #FF6B35; }</style>
+
+  <!-- Estilos globales de Zappiz -->
+  <link rel="stylesheet" href="../../css/styles.css">
+</head>
+
+<body class="quiz-wrapper">
+
+  <!-- ═══════════════════════════════════════════════════════════
+       SITE HEADER
+  ════════════════════════════════════════════════════════════ -->
+  <header class="site-header">
+    <div class="container">
+      <!-- Logo completo: icono + texto ZAPPIZ -->
+      <a href="../../index.html" class="brand-logo" aria-label="Zappiz — volver al inicio">
+        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#FF6B35"/>
+              <stop offset="100%" style="stop-color:#E8501A"/>
+            </linearGradient>
+          </defs>
+          <rect width="50" height="50" rx="13" fill="url(#hdrGrad)"/>
+          <path d="M11 14 L39 14 L11 36 L39 36" stroke="white" stroke-width="5" fill="none"
+                stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="39" cy="36" r="5.5" fill="#C8FF57"/>
+        </svg>
+        <span class="brand-logo-text">ZAPPIZ</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Navegación principal">
+        <a href="../../index.html">Inicio</a>
+        <a href="../../index.html#quizzes">Todos los quizzes</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       AD BANNER TOP
+       Zona para banner 728×90 (leaderboard) — entre header y quiz
+  ════════════════════════════════════════════════════════════ -->
+  <!-- AD BANNER TOP -->
+  <div class="container">
+    <div class="ad-zone ad-zone--leaderboard" aria-hidden="true" role="presentation">
+      <!-- Espacio publicitario 728×90 – Google AdSense leaderboard -->
+      <!--
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-XXXXXXXXXX"
+           data-ad-slot="XXXXXXXXXX"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      -->
+      Publicidad
+    </div>
+  </div>
+  <!-- /AD BANNER TOP -->
+
+  <!-- ═══════════════════════════════════════════════════════════
+       QUIZ MAIN
+  ════════════════════════════════════════════════════════════ -->
+  <main class="quiz-main" id="main-content">
+    <div class="container container--narrow">
+
+      <!-- Cabecera del quiz -->
+      <div class="quiz-header">
+        <span class="card-category" aria-label="Categoría: Personalidad">🧠 Personalidad</span>
+        <h1>¿Qué tipo de personalidad tienes?</h1>
+        <p class="text-muted" style="font-size:0.88rem; margin-top: 4px;">
+          12 preguntas · ~5 minutos · Presiona 1‑4 para responder con teclado
+        </p>
+      </div>
+
+      <!-- Barra de progreso -->
+      <div class="progress-container"
+           role="progressbar"
+           id="progress-aria"
+           aria-label="Progreso del quiz"
+           aria-valuenow="1"
+           aria-valuemin="1"
+           aria-valuemax="12">
+        <div class="progress-text">
+          <span>Tu progreso</span>
+          <span>
+            <span class="progress-step" id="progress-step">1</span>&nbsp;/&nbsp;<span id="progress-total">12</span>
+          </span>
+        </div>
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" id="progress-fill" style="width: 0%"></div>
+        </div>
+      </div>
+
+      <!-- ─────────────────────────────────────────────────────
+           SECCIÓN DE PREGUNTAS (controlada por quiz-engine.js)
+      ────────────────────────────────────────────────────── -->
+      <section id="quiz-question-section" aria-live="polite" aria-label="Pregunta del quiz">
+
+        <!-- AD BANNER MIDDLE — Se muestra cada 4 preguntas vía JS -->
+        <!-- AD BANNER MIDDLE -->
+        <div class="ad-zone ad-zone--medium"
+             id="ad-banner-middle"
+             style="display: none;"
+             aria-hidden="true"
+             role="presentation">
+          <!-- Espacio publicitario 300×250 – Google AdSense medium rectangle -->
+          <!--
+          <ins class="adsbygoogle"
+               style="display:inline-block;width:300px;height:250px"
+               data-ad-client="ca-pub-XXXXXXXXXX"
+               data-ad-slot="XXXXXXXXXX"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+          -->
+          Publicidad
+        </div>
+        <!-- /AD BANNER MIDDLE -->
+
+        <!-- Tarjeta de pregunta (contenido generado por JS) -->
+        <div class="question-card"
+             id="question-card"
+             role="group"
+             aria-labelledby="question-text">
+
+          <p class="question-number" id="question-number" aria-live="polite">Pregunta 1 de 12</p>
+
+          <h2 class="question-text" id="question-text">
+            Cargando quiz…
+          </h2>
+
+          <!-- Grid de respuestas (role="radiogroup" para accesibilidad) -->
+          <div class="answers-grid"
+               id="answers-grid"
+               role="radiogroup"
+               aria-label="Selecciona una respuesta">
+            <!-- Los botones se generan dinámicamente por quiz-engine.js -->
+          </div>
+        </div>
+
+        <!-- AD SIDEBAR — Desktop: columna lateral (insertar aquí o como fixed/sticky) -->
+        <!-- AD SIDEBAR -->
+        <!--
+        <aside class="ad-zone ad-zone--sidebar" aria-hidden="true" role="presentation"
+               style="position: sticky; top: 24px; align-self: flex-start;">
+          Publicidad lateral 300×600
+        </aside>
+        -->
+        <!-- /AD SIDEBAR -->
+
+      </section><!-- /quiz-question-section -->
+
+      <!-- ─────────────────────────────────────────────────────
+           SECCIÓN DE RESULTADOS (oculta, se muestra al terminar)
+      ────────────────────────────────────────────────────── -->
+      <section id="quiz-results-section"
+               class="results-screen"
+               aria-live="polite"
+               aria-label="Resultado del quiz">
+
+        <!-- Logo en resultados (sello de marca) -->
+        <div style="display:flex; justify-content:center; margin-bottom: 24px;">
+          <a href="../../index.html" class="brand-logo" aria-label="Zappiz">
+            <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <defs>
+                <linearGradient id="resGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#FF6B35"/>
+                  <stop offset="100%" style="stop-color:#E8501A"/>
+                </linearGradient>
+              </defs>
+              <rect width="50" height="50" rx="13" fill="url(#resGrad)"/>
+              <path d="M11 14 L39 14 L11 36 L39 36" stroke="white" stroke-width="5" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="39" cy="36" r="5.5" fill="#C8FF57"/>
+            </svg>
+            <span class="brand-logo-text">ZAPPIZ</span>
+          </a>
+        </div>
+
+        <!-- Tarjeta de resultado -->
+        <div class="question-card results-header">
+
+          <!-- Emoji grande del resultado -->
+          <span class="results-emoji" id="result-emoji" aria-hidden="true">🎯</span>
+
+          <!-- Tipo de personalidad -->
+          <p class="results-type-label" id="result-type-label">Tu tipo de personalidad es</p>
+          <h2 class="results-title"    id="result-title">El Líder Nato</h2>
+          <p class="results-description" id="result-description">
+            Aquí aparecerá tu descripción…
+          </p>
+
+          <!-- Barras de compatibilidad por tipo -->
+          <div class="compat-section" id="result-compat" aria-label="Compatibilidad con cada tipo de personalidad">
+            <!-- Generado por quiz-engine.js -->
+          </div>
+
+          <!-- Badge de marca "Verificado por Zappiz" -->
+          <div style="display:flex; justify-content:center; margin-bottom: 28px;">
+            <div class="brand-badge" role="img" aria-label="Resultado verificado por Zappiz">
+              <span class="badge-icon" aria-hidden="true">✦</span>
+              Resultado verificado por Zappiz
+            </div>
+          </div>
+
+          <!-- Botones de acción -->
+          <div class="results-actions">
+            <button class="btn btn-accent btn-lg"
+                    id="btn-share"
+                    aria-label="Compartir mi resultado en redes sociales (copia al portapapeles)">
+              📤 Compartir resultado
+            </button>
+            <button class="btn btn-ghost btn-lg"
+                    id="btn-retry"
+                    aria-label="Repetir el quiz desde el principio">
+              🔄 Repetir quiz
+            </button>
+          </div>
+
+        </div><!-- /question-card results-header -->
+
+        <!-- AD BANNER BOTTOM — Debajo del resultado -->
+        <!-- AD BANNER BOTTOM -->
+        <div class="ad-zone ad-zone--leaderboard" aria-hidden="true" role="presentation">
+          <!-- Espacio publicitario 728×90 – Google AdSense leaderboard -->
+          <!--
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-XXXXXXXXXX"
+               data-ad-slot="XXXXXXXXXX"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+          -->
+          Publicidad
+        </div>
+        <!-- /AD BANNER BOTTOM -->
+
+        <!-- Sección "Más quizzes" (se muestra con los resultados) -->
+        <section id="more-quizzes-section"
+                 class="more-quizzes"
+                 style="display: none;"
+                 aria-label="Más quizzes de Zappiz">
+
+          <h3 class="more-quizzes-title">Más quizzes para ti</h3>
+
+          <div class="quiz-cards-grid">
+
+            <!-- Tarjeta 2: Inteligencia Emocional (próximamente) -->
+            <div class="card quiz-card quiz-card--locked"
+                 style="--quiz-color: #4ECDC4"
+                 aria-label="Quiz próximamente: ¿Cuál es tu nivel de inteligencia emocional?"
+                 aria-disabled="true">
+              <div>
+                <span class="card-category card-category--teal">💚 Emociones</span>
+              </div>
+              <span class="quiz-card-emoji" aria-hidden="true">💚</span>
+              <p class="quiz-card-title">¿Cuál es tu nivel de inteligencia emocional?</p>
+              <p class="quiz-card-desc">Mide tu capacidad para identificar y gestionar tus emociones y las de los demás.</p>
+              <p class="quiz-card-meta">10 preguntas · 4 minutos</p>
+              <span class="quiz-card-cta" aria-hidden="true">Próximamente</span>
+            </div>
+
+            <!-- Tarjeta 3: Tipo de Líder (próximamente) -->
+            <div class="card quiz-card quiz-card--locked"
+                 style="--quiz-color: #C8FF57"
+                 aria-label="Quiz próximamente: ¿Qué tipo de líder eres?"
+                 aria-disabled="true">
+              <div>
+                <span class="card-category card-category--lime">⚡ Liderazgo</span>
+              </div>
+              <span class="quiz-card-emoji" aria-hidden="true">⚡</span>
+              <p class="quiz-card-title">¿Qué tipo de líder eres?</p>
+              <p class="quiz-card-desc">Descubre tu estilo de liderazgo: visionario, democrático, transformador o coaching.</p>
+              <p class="quiz-card-meta">12 preguntas · 5 minutos</p>
+              <span class="quiz-card-cta" aria-hidden="true">Próximamente</span>
+            </div>
+
+            <!-- Tarjeta 4: Cultura General (próximamente) -->
+            <div class="card quiz-card quiz-card--locked"
+                 style="--quiz-color: #A259FF"
+                 aria-label="Quiz próximamente: ¿Cuánto sabes de cultura general?"
+                 aria-disabled="true">
+              <div>
+                <span class="card-category card-category--violet">🌍 Cultura</span>
+              </div>
+              <span class="quiz-card-emoji" aria-hidden="true">🌍</span>
+              <p class="quiz-card-title">¿Cuánto sabes de cultura general?</p>
+              <p class="quiz-card-desc">Pon a prueba tus conocimientos de historia, ciencia, geografía y arte.</p>
+              <p class="quiz-card-meta">15 preguntas · 6 minutos</p>
+              <span class="quiz-card-cta" aria-hidden="true">Próximamente</span>
+            </div>
+
+          </div><!-- /quiz-cards-grid -->
+
+          <div style="text-align:center; margin-top: 32px;">
+            <a href="../../index.html" class="btn btn-primary">
+              Ver todos los quizzes →
+            </a>
+          </div>
+
+        </section><!-- /more-quizzes-section -->
+
+      </section><!-- /quiz-results-section -->
+
+    </div><!-- /container -->
+  </main>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       SITE FOOTER
+  ════════════════════════════════════════════════════════════ -->
+  <footer class="site-footer" aria-label="Pie de página Zappiz">
+    <div class="container">
+
+      <div class="footer-brand">
+        <!-- Logo compacto en footer -->
+        <a href="../../index.html" class="brand-logo brand-logo--sm" aria-label="Zappiz — inicio">
+          <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="ftGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#FF6B35"/>
+                <stop offset="100%" style="stop-color:#E8501A"/>
+              </linearGradient>
+            </defs>
+            <rect width="50" height="50" rx="13" fill="url(#ftGrad)"/>
+            <path d="M11 14 L39 14 L11 36 L39 36" stroke="white" stroke-width="5" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="39" cy="36" r="5.5" fill="#C8FF57"/>
+          </svg>
+          <span class="brand-logo-text" aria-hidden="true">ZAPPIZ</span>
+        </a>
+        <span class="footer-tagline">"Descubre lo que hay en tu mente"</span>
+      </div>
+
+      <!-- Redes sociales (placeholders) -->
+      <div class="footer-social" aria-label="Síguenos en redes sociales">
+        <a href="#" aria-label="Zappiz en X (Twitter)" rel="noopener noreferrer">𝕏</a>
+        <a href="#" aria-label="Zappiz en Instagram"   rel="noopener noreferrer">◎</a>
+        <a href="#" aria-label="Zappiz en TikTok"      rel="noopener noreferrer">♪</a>
+        <a href="#" aria-label="Zappiz en YouTube"     rel="noopener noreferrer">▶</a>
+      </div>
+
+      <!-- Links legales y de navegación -->
+      <nav class="footer-links" aria-label="Links del pie de página">
+        <a href="../../index.html">Inicio</a>
+        <a href="../../legal/sobre-nosotros.html">Sobre nosotros</a>
+        <a href="../../legal/privacidad.html">Política de privacidad</a>
+        <a href="../../legal/cookies.html">Política de cookies</a>
+        <a href="../../legal/contacto.html">Contacto</a>
+      </nav>
+
+      <p class="footer-bottom">
+        © <span id="current-year"></span> Zappiz · Todos los derechos reservados ·
+        Hecho con ♥ para mentes curiosas
+      </p>
+
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       SCRIPTS
+       IMPORTANTE: questions.js debe cargarse ANTES que quiz-engine.js
+  ════════════════════════════════════════════════════════════ -->
+  <script src="./questions.js"></script>
+  <script src="../../js/quiz-engine.js"></script>
+  <script>
+    // Año actual en el footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
